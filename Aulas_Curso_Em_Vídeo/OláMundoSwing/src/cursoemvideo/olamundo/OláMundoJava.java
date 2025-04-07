@@ -6,7 +6,7 @@ package cursoemvideo.olamundo;
 
 /**
  *
- * @author luna
+ * @author LaLunaInSky
  */
 public class OláMundoJava extends javax.swing.JFrame {
 
@@ -34,9 +34,15 @@ public class OláMundoJava extends javax.swing.JFrame {
         lblMensagem.setFont(new java.awt.Font("Fira Sans", 0, 24)); // NOI18N
         lblMensagem.setForeground(new java.awt.Color(255, 0, 0));
         lblMensagem.setText("Aqui vai aparecer a Mensagem");
+        lblMensagem.setAlignmentY(0.0F);
 
         btnClick.setFont(new java.awt.Font("Fira Sans", 0, 18)); // NOI18N
         btnClick.setText("Clique em Mim!");
+        btnClick.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnClickActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -56,13 +62,18 @@ public class OláMundoJava extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap(125, Short.MAX_VALUE)
                 .addComponent(lblMensagem)
-                .addGap(66, 66, 66)
-                .addComponent(btnClick)
-                .addGap(64, 64, 64))
+                .addGap(49, 49, 49)
+                .addComponent(btnClick, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(55, 55, 55))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClickActionPerformed
+        // TODO add your handling code here:
+        lblMensagem.setText("Olá, Mundo!");
+    }//GEN-LAST:event_btnClickActionPerformed
 
     /**
      * @param args the command line arguments
