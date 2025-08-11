@@ -7,7 +7,7 @@ public class BicycleDemo {
 
         bike_1.changedCadence(50);
         bike_1.speedUp(10);
-        bike_1.changedGear(2);                  
+        bike_1.changedGear(2);
         bike_1.printStates();
 
         bike_2.changedCadence(50);
