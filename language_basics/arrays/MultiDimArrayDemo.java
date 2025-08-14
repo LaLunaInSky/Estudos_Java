@@ -20,7 +20,6 @@ public class MultiDimArrayDemo {
             }
         }
 
-
         System.out.println();
     }
 
