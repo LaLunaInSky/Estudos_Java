@@ -4,4 +4,4 @@ https://dev.java/learn/
 https://dev-java.translate.goog/learn/language-basics/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
 
 https://dev-java.translate.goog/learn/language-basics/using-operators/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
-+ Os operadores de igualdade e relacionais +
++ O operador de comparação de tipos Instanceof +
