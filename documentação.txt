@@ -4,4 +4,4 @@ https://dev.java/learn/
 https://dev-java.translate.goog/learn/classes-objects/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
 
 https://dev-java.translate.goog/learn/classes-objects/creating-classes/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
-+  +
++ Declarando Variáveis Membro +
