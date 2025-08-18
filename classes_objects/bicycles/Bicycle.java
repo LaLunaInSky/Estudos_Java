@@ -1,7 +1,7 @@
 public class Bicycle {
-    public int cadence;
-    public int gear;
-    public int speed;
+    private int cadence;
+    private int gear;
+    private int speed;
 
     public Bicycle(
         int startCadence,
@@ -14,6 +14,18 @@ public class Bicycle {
     }
 
     // methods
+    public int getCadence() {
+        return cadence;
+    }
+
+    public int getGear() {
+        return gear;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
     public void setCadence(
         int newValue
     ) {

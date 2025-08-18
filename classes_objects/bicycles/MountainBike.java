@@ -1,5 +1,5 @@
 public class MountainBike extends Bicycle {
-    public int seatHeight;
+    private int seatHeight;
 
     public MountainBike(
         int startHeight,
@@ -17,7 +17,11 @@ public class MountainBike extends Bicycle {
     }
 
     // method
-    public void setHeight(
+    public int getSeatHeight() {
+        return seatHeight;
+    }
+
+    public void setSeatHeight(
         int newValue
     ) {
         seatHeight = newValue;
