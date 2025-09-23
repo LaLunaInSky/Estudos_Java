@@ -1,7 +1,7 @@
 public class Rectangle {
+    public Point origin;
     public int width = 0;
     public int height = 0;
-    public Point origin;
 
     public Rectangle() {
         origin = new Point(0, 0);

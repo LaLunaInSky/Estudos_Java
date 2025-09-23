@@ -3,10 +3,10 @@ public class Point {
     public int y = 0;
 
     public Point(
-        int a,
-        int b
+        int x,
+        int y
     ) {
-        x = a;
-        y = b;
+        this.x = x;
+        this.y = y;
     }
 }
