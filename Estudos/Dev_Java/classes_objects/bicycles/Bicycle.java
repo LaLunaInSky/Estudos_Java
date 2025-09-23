@@ -2,51 +2,62 @@ public class Bicycle {
     private int cadence;
     private int gear;
     private int speed;
+    private int id;
+    private static int numberOfBicycles = 0;
 
     public Bicycle(
         int startCadence,
         int startGear,
         int startSpeed
     ) {
-        cadence = startCadence;
-        gear = startGear;
-        speed = startSpeed;
+        this.cadence = startCadence;
+        this.gear = startGear;
+        this.speed = startSpeed;
+        this.id = ++numberOfBicycles;
     }
 
     // methods
+    public static int getNumberOfBicyles() {
+        return Bicycle.numberOfBicycles;
+    }
+
+    public int getID() {
+        return this.id;
+    }
+
     public int getCadence() {
-        return cadence;
+        return this.cadence;
     }
 
     public int getGear() {
-        return gear;
+        return this.gear;
     }
 
     public int getSpeed() {
-        return speed;
+        return this.speed;
     }
 
     public void setCadence(
         int newValue
     ) {
-        cadence = newValue;
+        this.cadence = newValue;
     }
 
     public void setGear(
         int newValue
     ) {
-        gear = newValue;
+        this.gear = newValue;
     }
 
     public void applyBrake(
         int decrement
     ) {
-        speed -= decrement;
+        this.speed -= decrement;
     }
 
     public void speedUp(
         int increment
     ) {
-        speed += increment;
+        this.speed += increment;
     }
 }
