@@ -7,9 +7,7 @@ public class BicycleDemo {
         );
 
         Bicycle bicycle_2 = new Bicycle(
-            0, 
-            0, 
-            0
+            0, 0, 0
         );
 
         IO.println(
