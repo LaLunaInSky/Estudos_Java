@@ -1,4 +1,4 @@
-package Estudos.Dev_Java.classes_objects.nested_classes;
+package Estudos.Dev_Java.classes_objects.enums;
 
 public enum DaysOfWeek {
     MONDAY,
