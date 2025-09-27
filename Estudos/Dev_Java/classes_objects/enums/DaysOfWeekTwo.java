@@ -1,33 +1,15 @@
-package Estudos.Dev_Java.classes_objects.enums;
-
 public enum DaysOfWeekTwo {
-    MONDAY(
-        "MON"
-    ),
-    TUESDAY(
-        "TUE"
-    ),
-    WEDNESDAY(
-        "WED"
-    ),
-    THURSDAY(
-        "THU"
-    ),
-    FRIDAY(
-        "FRI"
-    ),
-    SATURDAY(
-        "SAT"
-    ),
-    SUNDAY(
-        "SUN"
-    );  
+    MONDAY("MON"),
+    TUESDAY("TUE"),
+    WEDNESDAY("WED"),
+    THURSDAY("THU"),
+    FRIDAY("FRI"),
+    SATURDAY("SAT"),
+    SUNDAY("SUN");
 
     private final String abbreviation;
 
-    DaysOfWeekTwo(
-        String abbreviation
-    ) {
+    DaysOfWeekTwo(String abbreviation) {
         this.abbreviation = abbreviation;
     }
 

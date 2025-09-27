@@ -1,5 +1,3 @@
-package Estudos.Dev_Java.classes_objects.enums;
-
 public enum DaysOfWeek {
     MONDAY,
     TUESDAY,
@@ -7,5 +5,5 @@ public enum DaysOfWeek {
     THURSDAY,
     FRIDAY,
     SATURDAY,
-    SUNDAY
+    SUNDAY,
 }

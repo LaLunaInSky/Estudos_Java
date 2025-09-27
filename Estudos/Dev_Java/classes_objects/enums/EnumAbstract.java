@@ -1,20 +1,14 @@
-package Estudos.Dev_Java.classes_objects.enums;
-
 public enum EnumAbstract {
-    A() {
+    A {
         @Override
         void doSomething() {
-            IO.println(
-                "a"
-            );
+            IO.println("a");
         }
     },
-    B() {
+    B {
         @Override
         void doSomething() {
-            IO.println(
-                "b"
-            );
+            IO.println("b");
         }
     };
 

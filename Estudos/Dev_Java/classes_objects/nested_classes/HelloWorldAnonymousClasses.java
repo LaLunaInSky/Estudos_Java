@@ -1,32 +1,24 @@
-package Estudos.Dev_Java.classes_objects.nested_classes;
-
 public class HelloWorldAnonymousClasses {
+
     interface HelloWorld {
         public void greet();
 
-        public void greetSomeone(
-            String someone
-        );
+        public void greetSomeone(String someone);
     }
 
     public void sayHello() {
         class EnglishGreeting implements HelloWorld {
+
             String name = "world";
 
             public void greet() {
-                greetSomeone(
-                    "world"
-                );
+                greetSomeone("world");
             }
 
-            public void greetSomeone(
-                String someone
-            ) {
+            public void greetSomeone(String someone) {
                 name = someone;
 
-                IO.println(
-                    "Hello " + name
-                );
+                IO.println("Hello " + name);
             }
         }
 
@@ -36,19 +28,13 @@ public class HelloWorldAnonymousClasses {
             String name = "tout le monde";
 
             public void greet() {
-                greetSomeone(
-                    "tout le monde"
-                );
+                greetSomeone("tout le monde");
             }
 
-            public void greetSomeone(
-                String someone
-            ) {
+            public void greetSomeone(String someone) {
                 name = someone;
 
-                IO.println(
-                    "Salut " + name
-                );
+                IO.println("Salut " + name);
             }
         };
 
@@ -56,27 +42,19 @@ public class HelloWorldAnonymousClasses {
             String name = "mundo";
 
             public void greet() {
-                greetSomeone(
-                    "mundo"
-                );
+                greetSomeone("mundo");
             }
 
-            public void greetSomeone(
-                String someone
-            ) {
+            public void greetSomeone(String someone) {
                 name = someone;
 
-                IO.println(
-                    "Hola, " + name
-                );
+                IO.println("Hola, " + name);
             }
         };
 
         englishGreeting.greet();
-        
-        frenchGreeting.greetSomeone(
-            "Fred"
-        );
+
+        frenchGreeting.greetSomeone("Fred");
 
         spanishGreeting.greet();
     }

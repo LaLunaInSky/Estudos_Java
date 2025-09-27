@@ -1,17 +1,12 @@
-package Estudos.Dev_Java.classes_objects.nested_classes;
-
 import java.util.Iterator;
 
 public class DataStructure {
-    private final static int SIZE = 15;
+
+    private static final int SIZE = 15;
     private int[] arrayOfInts = new int[SIZE];
 
     public DataStructure() {
-        for (
-            int i = 0;
-            i < SIZE;
-            i++
-        ) {
+        for (int i = 0; i < SIZE; i++) {
             arrayOfInts[i] = i;
         }
     }
@@ -19,12 +14,8 @@ public class DataStructure {
     public void printEven() {
         DataStructureIterator iterator = this.new EvenIterator();
 
-        while (
-            iterator.hasNext()
-        ) {
-            IO.print(
-                iterator.next() + " "
-            );
+        while (iterator.hasNext()) {
+            IO.print(iterator.next() + " ");
         }
 
         IO.println();
@@ -33,20 +24,15 @@ public class DataStructure {
     interface DataStructureIterator extends Iterator<Integer> {}
 
     private class EvenIterator implements DataStructureIterator {
+
         private int nextIndex = 0;
 
         public boolean hasNext() {
-            return (
-                nextIndex <= SIZE - 1
-            );
+            return (nextIndex <= SIZE - 1);
         }
 
         public Integer next() {
-            Integer retValue = Integer.valueOf(
-                arrayOfInts[
-                    nextIndex
-                ]
-            );
+            Integer retValue = Integer.valueOf(arrayOfInts[nextIndex]);
 
             nextIndex += 2;
 
