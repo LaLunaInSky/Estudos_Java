@@ -1,7 +1,8 @@
 https://dev.java/learn/
 
 /* Capítulo Parado */
-https://dev-java.translate.goog/learn/classes-objects/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
+https://dev-java.translate.goog/learn/records/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
++  +
 
-https://dev-java.translate.goog/learn/classes-objects/design-best-practices/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
+/* Subcapítulo Parado */
 +  +
