@@ -6,4 +6,16 @@ public class Circle {
     ) {
         // ...
     }
+
+    public int getX() {
+        return this.x;
+    }
+
+    public int getY() {
+        return this.y;
+    }
+
+    public int getRadius() {
+        return this.radius;
+    }
 }

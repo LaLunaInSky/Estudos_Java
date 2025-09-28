@@ -61,6 +61,7 @@ public class DaysOfWeekDemo {
 
         DaysOfWeek monday = DaysOfWeek.valueOf("MONDAY");
 
+        IO.println(days);
         IO.println(monday);
 
         List<DaysOfWeek> days_2 = new ArrayList<>(

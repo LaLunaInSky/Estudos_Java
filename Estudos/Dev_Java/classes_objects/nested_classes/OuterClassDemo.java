@@ -10,7 +10,7 @@ public class OuterClassDemo {
 
         IO.println("\nStatic nested class:\n" + "--------------------");
 
-        StaticNestedClass staticNestedObject = new StaticNestedClass();
+        OuterClass.StaticNestedClass staticNestedObject = new OuterClass.StaticNestedClass();
         staticNestedObject.accessMembers(outerObject);
 
         IO.println("\nTop-level class:\n" + "--------------------");
