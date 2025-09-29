@@ -3,7 +3,7 @@ public class Polygon {
 }
 
 public Polygon polygonFrom(
-    Point... corners
+    PointPolygon... corners
 ) {
     int numberOfSides = corners.length;
 

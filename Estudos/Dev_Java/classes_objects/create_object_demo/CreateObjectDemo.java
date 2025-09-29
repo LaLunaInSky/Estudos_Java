@@ -2,14 +2,20 @@ public class CreateObjectDemo {
     public static void main(
         String... args
     ) {
-        Point originOne = new Point(23, 94);
+        PointArea originOne = new PointArea(
+            23, 
+            94
+        );
 
         Rectangle rectOne = new Rectangle(
-            originOne, 100, 200
+            originOne, 
+            100, 
+            200
         );
 
         Rectangle rectTwo = new Rectangle(
-            50, 100
+            50, 
+            100
         );
 
         // display reactOne's width, height and area
@@ -30,24 +36,25 @@ public class CreateObjectDemo {
 
         // display rectTwo's position
         IO.println(
-            "X Position of rectTwo: " + rectTwo.origin.x
+            "X Position of rectTwo: " + rectTwo.origin.getX()
         );
 
         IO.println(
-            "Y Position of rectTwo: " + rectTwo.origin.y
+            "Y Position of rectTwo: " + rectTwo.origin.getY()
         );
 
         // move rectTwo and display its new position
         rectTwo.move(
-            40, 72
+            40, 
+            72
         );
 
         IO.println(
-            "X Position of rectTwo: " + rectTwo.origin.x
+            "X Position of rectTwo: " + rectTwo.origin.getX()
         );
 
         IO.println(
-            "Y Position of rectTwo: " + rectTwo.origin.y
+            "Y Position of rectTwo: " + rectTwo.origin.getY()
         );
     }
 }

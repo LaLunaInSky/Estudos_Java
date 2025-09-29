@@ -1,14 +1,14 @@
 public class Rectangle {
-    public Point origin;
+    public PointArea origin;
     public int width = 0;
     public int height = 0;
 
     public Rectangle() {
-        origin = new Point(0, 0);
+        origin = new PointArea(0, 0);
     }
 
     public Rectangle(
-        Point p
+        PointArea p
     ) {
         origin = p;
     }
@@ -16,7 +16,7 @@ public class Rectangle {
     public Rectangle(
         int w, int h
     ) {
-        origin = new Point(0, 0);
+        origin = new PointArea(0, 0);
 
         width = w;
 
@@ -24,7 +24,7 @@ public class Rectangle {
     }
 
     public Rectangle(
-        Point p,
+        PointArea p,
         int w, int h
     ) {
         origin = p;
@@ -37,9 +37,9 @@ public class Rectangle {
     public void move(
         int x, int y
     ) {
-        origin.x = x;
+        origin.setX(x);
 
-        origin.y = y;
+        origin.setY(y);
     }
 
     public int getArea() {
