@@ -5,5 +5,5 @@ https://dev-java.translate.goog/learn/numbers-strings/?_x_tr_sl=auto&_x_tr_tl=pt
 +  +
 
 /* Subcapítulo Parado */
-https://dev-java.translate.goog/learn/numbers-strings/numbers/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
-+ Números aleatórios +
+https://dev-java.translate.goog/learn/numbers-strings/characters/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
++  +

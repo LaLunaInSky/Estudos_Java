@@ -30,7 +30,9 @@ public class TrigonometricDemo {
             Math.sin(radians),
             Math.toDegrees(
                 Math.asin(
-                    Math.sin(radians)
+                    Math.sin(
+                        radians
+                    )
                 )
             )
         );
