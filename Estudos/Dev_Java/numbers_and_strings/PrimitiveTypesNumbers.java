@@ -1,5 +1,3 @@
-package Estudos.Dev_Java.numbers_and_strings;
-
 public class PrimitiveTypesNumbers {
     public static void main(
         String... args
