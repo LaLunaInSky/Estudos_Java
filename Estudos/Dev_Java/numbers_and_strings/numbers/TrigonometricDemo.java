@@ -1,3 +1,4 @@
+package numbers;
 public class TrigonometricDemo {
     public static void main(
         String... args

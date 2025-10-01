@@ -1,3 +1,4 @@
+package numbers;
 public class PrimitiveTypesNumbers {
     public static void main(
         String... args
