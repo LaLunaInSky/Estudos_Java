@@ -1,14 +1,16 @@
+package create_object;
+
 public class Rectangle {
-    public PointArea origin;
+    public Point origin;
     public int width = 0;
     public int height = 0;
 
     public Rectangle() {
-        origin = new PointArea(0, 0);
+        origin = new Point(0, 0);
     }
 
     public Rectangle(
-        PointArea p
+        Point p
     ) {
         origin = p;
     }
@@ -16,7 +18,7 @@ public class Rectangle {
     public Rectangle(
         int w, int h
     ) {
-        origin = new PointArea(0, 0);
+        origin = new Point(0, 0);
 
         width = w;
 
@@ -24,7 +26,7 @@ public class Rectangle {
     }
 
     public Rectangle(
-        PointArea p,
+        Point p,
         int w, int h
     ) {
         origin = p;

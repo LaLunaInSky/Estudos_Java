@@ -1,3 +1,5 @@
+package arrays;
+
 public class MultiDimArrayDemo {
     static void displayBidimensionalArray(
         String[][] strings

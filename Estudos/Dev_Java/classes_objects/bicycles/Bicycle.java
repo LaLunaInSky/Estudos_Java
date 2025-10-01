@@ -1,3 +1,5 @@
+package bicycles;
+
 public class Bicycle {
     private int cadence;
     private int gear;

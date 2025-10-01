@@ -1,3 +1,5 @@
+package nested_classes;
+
 public class TopLevelClass {
 
     void accessMembers(OuterClass outer) {

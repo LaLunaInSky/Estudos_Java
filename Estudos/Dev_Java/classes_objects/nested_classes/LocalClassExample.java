@@ -1,3 +1,5 @@
+package nested_classes;
+
 public class LocalClassExample {
 
     static String regularExpression = "[^0-9]";

@@ -1,3 +1,5 @@
+package nested_classes;
+
 public class ShadowTestDemo {
 
     public static void main(String... args) {

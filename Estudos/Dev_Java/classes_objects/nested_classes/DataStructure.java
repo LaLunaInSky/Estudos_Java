@@ -1,3 +1,5 @@
+package nested_classes;
+
 import java.util.Iterator;
 
 public class DataStructure {

@@ -1,3 +1,5 @@
+package enums;
+
 public enum DaysOfWeekTwo {
     MONDAY("MON"),
     TUESDAY("TUE"),

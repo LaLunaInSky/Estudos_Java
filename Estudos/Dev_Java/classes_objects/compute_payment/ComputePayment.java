@@ -1,3 +1,5 @@
+package compute_payment;
+
 public class ComputePayment {
     public double computePayment(
         double loanAmt,

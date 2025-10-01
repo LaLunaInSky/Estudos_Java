@@ -1,8 +1,10 @@
-public class PointArea {
+package polygon;
+
+public class Point {
     private int x = 0;
     private int y = 0;
 
-    public PointArea(
+    public Point(
         int x,
         int y
     ) {

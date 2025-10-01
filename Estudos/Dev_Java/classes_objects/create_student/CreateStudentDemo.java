@@ -1,3 +1,5 @@
+package create_student;
+
 public class CreateStudentDemo {
     public static void main(
         String... args

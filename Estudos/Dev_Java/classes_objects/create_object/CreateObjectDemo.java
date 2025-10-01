@@ -1,8 +1,10 @@
+package create_object;
+
 public class CreateObjectDemo {
     public static void main(
         String... args
     ) {
-        PointArea originOne = new PointArea(
+        Point originOne = new Point(
             23, 
             94
         );

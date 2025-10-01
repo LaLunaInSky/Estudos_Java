@@ -1,3 +1,5 @@
+package pass_primitive_by_value;
+
 public class PassPrimitiveByValue {
     public static void main(
         String... args

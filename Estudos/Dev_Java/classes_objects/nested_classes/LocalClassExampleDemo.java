@@ -1,3 +1,5 @@
+package nested_classes;
+
 public class LocalClassExampleDemo {
 
     public static void main(String[] args) {

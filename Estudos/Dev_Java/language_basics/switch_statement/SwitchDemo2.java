@@ -1,3 +1,5 @@
+package switch_statement;
+
 public class SwitchDemo2 {
     public static void main(
         String[] args

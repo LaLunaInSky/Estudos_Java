@@ -1,3 +1,5 @@
+package bicycles;
+
 public class MountainBike extends Bicycle {
     private int seatHeight;
 

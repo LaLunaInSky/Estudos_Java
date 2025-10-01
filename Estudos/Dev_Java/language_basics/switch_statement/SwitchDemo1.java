@@ -1,3 +1,5 @@
+package switch_statement;
+
 import java.util.ArrayList;
 import java.util.List;
 

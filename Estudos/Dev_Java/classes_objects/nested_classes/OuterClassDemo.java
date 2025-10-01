@@ -1,3 +1,5 @@
+package nested_classes;
+
 public class OuterClassDemo {
 
     public static void main(String... args) {

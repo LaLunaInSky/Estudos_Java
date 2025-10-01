@@ -1,3 +1,5 @@
+package nested_classes;
+
 public class OuterClass {
 
     String outerField = "Outer field";

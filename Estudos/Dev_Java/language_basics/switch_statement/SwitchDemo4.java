@@ -1,3 +1,5 @@
+package switch_statement;
+
 import java.time.DayOfWeek;
 
 public class SwitchDemo4 {

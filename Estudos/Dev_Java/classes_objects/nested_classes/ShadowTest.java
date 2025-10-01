@@ -1,3 +1,5 @@
+package nested_classes;
+
 public class ShadowTest {
 
     public int x = 0;

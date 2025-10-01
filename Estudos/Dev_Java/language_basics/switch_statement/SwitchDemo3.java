@@ -1,3 +1,5 @@
+package switch_statement;
+
 public class SwitchDemo3 {
     // static enum Month {
     //     "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"

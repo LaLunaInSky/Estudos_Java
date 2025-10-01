@@ -1,3 +1,5 @@
+package operators;
+
 public class BitDemo {
     public static void main(
         String[] args

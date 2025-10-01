@@ -1,3 +1,5 @@
+package create_object;
+
 public class RectangleWithThis {
     private int x, y;
     private int width, height;
