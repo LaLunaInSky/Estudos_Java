@@ -74,5 +74,54 @@ public class StringExamples {
         IO.println(
             fs
         );
+
+        int i = 5;
+        double d = 5.5;
+        
+        String s_1 = "" + i;
+
+        // Or
+
+        String s_2 = String.valueOf(
+            i
+        );
+
+        // Or
+
+        String s_3 = Integer.toString(
+            i
+        );
+
+        String s_4 = Double.toString(
+            d
+        );
+
+        System.out.printf(
+            "%s\n%s\n%s\n%s\n\n",
+            s_1,
+            s_2,
+            s_3,
+            s_4
+        );
+
+        String anotherPalindrome = "Niagara. O roar again!";
+
+        char aChar = anotherPalindrome.charAt(
+            9
+        );
+
+        String roar = anotherPalindrome.substring(
+            11, 
+            15
+        );
+
+        System.out.printf(
+            "The palindome \"%s\"\n" + 
+            "Char in index 9 = %s\n" + 
+            "Substring in index 11 at 15 = %s\n\n",
+            anotherPalindrome,
+            aChar,
+            roar
+        );
     }
 }
