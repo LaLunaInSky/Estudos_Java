@@ -50,5 +50,29 @@ public class StringExamples {
             "Dot " + string_1 + 
             " Tod.\n"
         );
+
+        float floatVar = (float) 10.0;
+
+        int intVar = 54;
+
+        String stringVar = "Hello";
+
+        String fs;
+
+        // System.out.printf(
+        //     "The value of the float variable is %f, while the value of the integer variable is %d, and the string is \"%s\".\n",
+        //     floatVar, intVar, stringVar
+        // );
+
+        // Or
+
+        fs = String.format(
+            "The value of the float variable is %f, while the value of the integer variable is %d, and the string is \"%s\".\n",
+            floatVar, intVar, stringVar
+        );
+
+        IO.println(
+            fs
+        );
     }
 }
