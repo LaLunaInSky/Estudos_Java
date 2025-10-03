@@ -97,7 +97,11 @@ public class StringExamples {
         );
 
         System.out.printf(
-            "%s\n%s\n%s\n%s\n\n",
+            "%s\n" + 
+            "%s\n" + 
+            "%s\n" + 
+            "%s\n" + 
+            "\n",
             s_1,
             s_2,
             s_3,
