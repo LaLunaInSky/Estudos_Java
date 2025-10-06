@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Estudos/Dev_Java/Dev_Java.iml" filepath="$PROJECT_DIR$/Estudos/Dev_Java/Dev_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Estudos_Java.iml" filepath="$PROJECT_DIR$/.idea/Estudos_Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Estudos/Dev_Java/numbers_and_strings/numbers_and_strings.iml" filepath="$PROJECT_DIR$/Estudos/Dev_Java/numbers_and_strings/numbers_and_strings.iml" />
     </modules>
   </component>
 </project>
