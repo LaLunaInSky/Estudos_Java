@@ -1,5 +1,3 @@
-package polygon;
-
 public class Polygon {
     // method goes here
 }
@@ -22,4 +20,8 @@ public Polygon polygonFrom(
     );
 
     lengthOfSide_1 = Math.sqrt(squareOfSide_1);
+}
+
+void main() {
+    IO.println("");
 }
