@@ -9,9 +9,7 @@ public class Subclass extends Superclass {
         );
     }
 
-    public static void main(
-        String... args
-    ) {
+    void main() {
         Subclass subClass = new Subclass();
         
         subClass.printMethod();
