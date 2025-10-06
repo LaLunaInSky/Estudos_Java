@@ -1,4 +1,4 @@
-package inheritance;
+package overriding_and_hiding_methods;
 
 public class Animal {
     public static void testClassMethod() {
