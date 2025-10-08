@@ -1,3 +1,5 @@
+ /************************/
+/* Site da Documentaçao */
 https://docs.spring.io/spring-boot/documentation.html
 
  /**************/
@@ -7,4 +9,12 @@ https://docs.spring.io/spring-boot/installing.html
  /*******************/
 /* Capítulo Parado */
 https://docs.spring.io/spring-boot/documentation.html
++  +
+
+
+ /***********************************/
+/* Video do Curso de Spring basico */
+https://youtu.be/n8_qrrc8WN4
+
+/* Minutagem Parada */
 +  +
