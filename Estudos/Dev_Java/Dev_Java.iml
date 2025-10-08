@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/record_to_model_immutable_data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/single_file_program" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/interfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/generics" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
