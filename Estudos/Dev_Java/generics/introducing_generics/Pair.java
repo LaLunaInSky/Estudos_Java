@@ -1,6 +1,6 @@
 package introducing_generics;
 
 public interface Pair<K ,V> {
-    public K getKey();
+    public K getKey()  ;
     public V getValue();
 }
