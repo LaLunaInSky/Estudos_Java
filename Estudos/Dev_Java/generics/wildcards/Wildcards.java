@@ -30,6 +30,34 @@ public class Wildcards {
         return s;
     }
 
+    public static void printList(
+        List<?> list
+    ) {
+        for (
+            Object elem : list
+        ) {
+            IO.println(
+                elem + " "
+            );
+        }
+
+        IO.println();
+    }
+
+    public static void addNumbers(
+        List<? super Integer> list
+    ) {
+        for (
+            int i = 1;
+            i <= 10;
+            i++
+        ) {
+            list.add(
+                i
+            );
+        }
+    }
+
     void main() {
         List<Integer> li = Arrays.asList(
             1, 2, 3
@@ -47,6 +75,18 @@ public class Wildcards {
             sumOfList(
                 ld
             )
+        );
+
+        List<String> ls = Arrays.asList(
+            "one", "two", "three"
+        );
+
+        printList(
+            li
+        );
+
+        printList(
+            ls
         );
     }
 }
