@@ -9,6 +9,6 @@ https://dev-java.translate.goog/learn/generics/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_
 
  /**********************/
 /* Subcapítulo Parado */
-https://dev-java.translate.goog/learn/generics/type-erasure/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
-+ Evite avisos de métodos Varargs com parâmetros formais não reificáveis +
+https://dev-java.translate.goog/learn/generics/restrictions/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
++ Não é possível sobrecarregar um método onde os tipos de parâmetros formais de cada sobrecarga apagam para o mesmo tipo bruto +
  +  +
