@@ -1,14 +1,15 @@
 {
     "java.project.sourcePaths": [
-        "Estudos/Dev_Java/single_file_program",
-        "Estudos/Dev_Java/record_to_model_immutable_data",
-        "Estudos/Dev_Java/opp",
-        "Estudos/Dev_Java/numbers_and_strings",
-        "Estudos/Dev_Java/language_basics",
-        "Estudos/Dev_Java/inheritance",
-        "Estudos/Dev_Java/getting_started",
-        "Estudos/Dev_Java/generics",
         "Estudos/Dev_Java/classes_objects",
-        "Estudos/Dev_Java/interfaces"
+        "Estudos/Dev_Java/generics",
+        "Estudos/Dev_Java/getting_started",
+        "Estudos/Dev_Java/inheritance",
+        "Estudos/Dev_Java/interfaces",
+        "Estudos/Dev_Java/lambda_expressions",
+        "Estudos/Dev_Java/language_basics",
+        "Estudos/Dev_Java/numbers_and_strings",
+        "Estudos/Dev_Java/opp",
+        "Estudos/Dev_Java/record_to_model_immutable_data",
+        "Estudos/Dev_Java/single_file_program",
     ]
 }
