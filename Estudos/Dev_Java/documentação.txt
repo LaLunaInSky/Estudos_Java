@@ -4,11 +4,11 @@ https://dev.java/learn/
 
  /*******************/
 /* Capítulo Parado */
-https://dev-java.translate.goog/learn/generics/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
+https://dev-java.translate.goog/learn/lambdas/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
 +  +
 
  /**********************/
 /* Subcapítulo Parado */
-https://dev-java.translate.goog/learn/generics/restrictions/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
-+ Não é possível sobrecarregar um método onde os tipos de parâmetros formais de cada sobrecarga apagam para o mesmo tipo bruto +
- +  +
+https://dev-java.translate.goog/learn/lambdas/functional-interfaces/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
++ Consumindo objetos comConsumer<T> +
+ + Implementando e usando consumidores +
