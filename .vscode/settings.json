@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Estudos/Dev_Java/annotations",
         "Estudos/Dev_Java/classes_objects",
         "Estudos/Dev_Java/generics",
         "Estudos/Dev_Java/getting_started",
