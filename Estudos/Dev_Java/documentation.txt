@@ -4,12 +4,12 @@ https://dev.java/learn/
 
  /*******************/
 /* Stopped Chapter */
-https://dev-java.translate.goog/learn/pattern-matching/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
-+ Padrão de registro +
+https://dev-java.translate.goog/learn/exceptions/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
++  +
  +  +
 
  /**********************/
 /* Stopped Subchapter */
-
-+  +
+https://dev-java.translate.goog/learn/exceptions/what-is-an-exception/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp
++ O que é uma exceção? +
  +  +
